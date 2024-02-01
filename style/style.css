@@ -1,0 +1,28 @@
+header{
+    color:red;
+    background-color: gold;
+    font-family: serif, "Amiri Quran";
+    letter-spacing: 0.10cm;
+}
+nav{
+    padding: 20px;
+    margin-top: 3px;
+}
+li{
+    float: left;
+}
+ul{
+    list-style-type: none;
+    overflow: visible;
+}
+li a{
+    display: block;
+    padding: 10px;
+    background-color: darkgrey;
+    text-decoration: none;
+    text-align: center;
+}
+/*nav menüüs link fookuses on teise taustaga*/
+nav li a:hover{
+    background-color: darkorange;
+}
