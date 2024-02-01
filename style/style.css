@@ -26,3 +26,23 @@ li a{
 nav li a:hover{
     background-color: darkorange;
 }
+footer{
+    position: fixed;
+    left:0;
+    bottom:0;
+    background-color: gold;
+    width: 100%;
+    text-align: center;
+}
+main section{
+    border-left: 6px solid gold;
+    background-color: darkgrey;
+    border-radius: 120px;
+    padding:2%;
+    width:30%;
+}
+section#teine{
+    position: absolute;
+    left: 550px;
+    top: 150px;
+}
