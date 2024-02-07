@@ -34,3 +34,9 @@ footer{
     background-color: lightyellow;
 }
 /*боковое меню в навигации для этого в каждом файле.2 добавил для <nav класс под название "sidebar"*/
+
+section {
+    text-align: center;
+    border: 30px solid lemonchiffon;
+}
+/*для раздела section поставил рамки между текстом*/
