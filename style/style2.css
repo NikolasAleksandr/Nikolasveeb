@@ -1,0 +1,36 @@
+header{
+    color:darkslategray;
+    background-color: lightyellow;
+    font-family: serif, "Old English Text MT";
+    letter-spacing: 0.05cm;
+}
+
+body {
+    background-color: peachpuff;
+}
+/*цвет заднего плана*/
+
+h1,h2,div{
+    color: darkslategray;
+    text-align: center;
+}
+/*выводит и красит текст, который я указал к примеру заголовок h1*/
+
+footer{
+    position: fixed;
+    left:0;
+    bottom:0;
+    background-color: lightyellow;
+    width: 100%;
+    text-align: center;
+}
+
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    background-color: lightyellow;
+}
+/*боковое меню в навигации для этого в каждом файле.2 добавил для <nav класс под название "sidebar"*/
