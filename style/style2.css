@@ -40,3 +40,21 @@ section {
     border: 30px solid lemonchiffon;
 }
 /*для раздела section поставил рамки между текстом*/
+
+main section{
+    position: absolute;
+    border-left: 6px peachpuff;
+    background-color: lightyellow;
+    border-radius: 200px;
+    padding:5%;
+    width:20%;
+    left: 35%;
+}
+/*добавил рамку для основного раздела*/
+
+section#second{
+    position: absolute;
+    left: 35%;
+    top: 490px;
+}
+/*подправил рамку второго раздела*/
