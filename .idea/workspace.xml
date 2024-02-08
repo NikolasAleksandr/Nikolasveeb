@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b93870fd-7e03-4c70-b918-6c107958c7ef" name="Changes" comment="section рамки между текстом">
+    <list default="true" id="b93870fd-7e03-4c70-b918-6c107958c7ef" name="Changes" comment="рамки в разделах section">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/index2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/style2.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/style2.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1707345133548</updated>
       <workItem from="1707345134931" duration="4944000" />
-      <workItem from="1707382982321" duration="1782000" />
+      <workItem from="1707382982321" duration="3099000" />
     </task>
     <task id="LOCAL-00001" summary="enesetutvustus">
       <option name="closed" value="true" />
@@ -123,7 +121,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707350055721</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="рамки в разделах section">
+      <option name="closed" value="true" />
+      <created>1707385132153</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1707385132153</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,6 +140,7 @@
     <MESSAGE value="tegin teised failid" />
     <MESSAGE value="сделал меню сбоку" />
     <MESSAGE value="section рамки между текстом" />
-    <option name="LAST_COMMIT_MESSAGE" value="section рамки между текстом" />
+    <MESSAGE value="рамки в разделах section" />
+    <option name="LAST_COMMIT_MESSAGE" value="рамки в разделах section" />
   </component>
 </project>

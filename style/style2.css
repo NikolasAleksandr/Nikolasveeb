@@ -3,6 +3,7 @@ header{
     background-color: lightyellow;
     font-family: serif, "Old English Text MT";
     letter-spacing: 0.05cm;
+    font-size: 16px;
 }
 
 body {
@@ -10,9 +11,10 @@ body {
 }
 /*цвет заднего плана*/
 
-h1,h2,div{
-    color: darkslategray;
+h1,h2{
+    color: darkcyan;
     text-align: center;
+    font-family: serif, "Book Antiqua";
 }
 /*выводит и красит текст, который я указал к примеру заголовок h1*/
 
@@ -58,3 +60,22 @@ section#second{
     top: 490px;
 }
 /*подправил рамку второго раздела*/
+
+div{
+    font-size: 20px;
+    color: olivedrab;
+}
+
+li{
+    list-style: none ;
+    padding-left: 5px;
+    font-size: 21px;
+}
+
+li a{
+    text-decoration-color: darkcyan;
+}
+
+a{
+    color: olivedrab;
+}
