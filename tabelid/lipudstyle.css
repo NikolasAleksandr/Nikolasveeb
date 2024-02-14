@@ -50,6 +50,32 @@
     background-color: gold;
     height: 20%;
 }
+
+#mali {
+    width: 330px;
+    height: 210px;
+    border: 1pt solid grey;
+    border-spacing: 0;
+    position: absolute;
+    top: 50px;
+    left: 700px;
+}
+
+/* 1.lahter*/
+#mali tr td:nth-child(1) {
+    background-color: green;
+}
+
+/* 2.lahter*/
+#mali tr td:nth-child(2)  {
+    background-color: yellow;
+}
+
+/* 3.lahter*/
+#mali tr td:nth-child(3)  {
+    background-color: red;
+}
+
 /*
 3. lipp nagu CHAD või MALI
 4. lipp nagu Norra lipp

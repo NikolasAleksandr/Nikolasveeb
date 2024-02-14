@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b93870fd-7e03-4c70-b918-6c107958c7ef" name="Changes" comment="исправил ошибки, которые показал валидатор">
-      <change afterPath="$PROJECT_DIR$/tabelid/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tabelid/lipud.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tabelid/lipudstyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tabelid/tabelid.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tabelid/tabelstyle.css" afterDir="false" />
+    <list default="true" id="b93870fd-7e03-4c70-b918-6c107958c7ef" name="Changes" comment="tabelid lipud">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tabelid/lipud.html" beforeDir="false" afterPath="$PROJECT_DIR$/tabelid/lipud.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tabelid/lipudstyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/tabelid/lipudstyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tabelid/tabelstyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/tabelid/tabelstyle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tood.html" beforeDir="false" afterPath="$PROJECT_DIR$/tood.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tood2.html" beforeDir="false" afterPath="$PROJECT_DIR$/tood2.html" afterDir="false" />
     </list>
@@ -83,7 +81,8 @@
       <updated>1707345133548</updated>
       <workItem from="1707345134931" duration="4944000" />
       <workItem from="1707382982321" duration="4585000" />
-      <workItem from="1707911129976" duration="617000" />
+      <workItem from="1707911129976" duration="719000" />
+      <workItem from="1707918451603" duration="7250000" />
     </task>
     <task id="LOCAL-00001" summary="enesetutvustus">
       <option name="closed" value="true" />
@@ -173,7 +172,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707387567552</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="tabelid lipud">
+      <option name="closed" value="true" />
+      <created>1707911846434</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1707911846434</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,6 +194,7 @@
     <MESSAGE value="рамки в разделах section" />
     <MESSAGE value="менял цвет, размер текста и его расположение" />
     <MESSAGE value="исправил ошибки, которые показал валидатор" />
-    <option name="LAST_COMMIT_MESSAGE" value="исправил ошибки, которые показал валидатор" />
+    <MESSAGE value="tabelid lipud" />
+    <option name="LAST_COMMIT_MESSAGE" value="tabelid lipud" />
   </component>
 </project>
