@@ -76,8 +76,87 @@
     background-color: red;
 }
 
-/*
-3. lipp nagu CHAD või MALI
-4. lipp nagu Norra lipp
-5. Oma valik
-*/
+#island{
+    width: 330px;
+    height: 210px;
+    border: 1pt solid grey;
+    border-spacing: 0;
+    position: absolute;
+    top: 50px;
+    left: 1050px;
+}
+
+/* 1. rida, 1. lahter ja 3. rida, 1. lahter */
+#island tr:nth-child(1) td:nth-child(1),
+#island tr:nth-child(3) td:nth-child(1) {
+    background-color: blue;
+    width: 25%;
+}
+
+/* 1. rida, 2. lahter ja 3. rida, 2. lahter */
+#island tr:nth-child(1) td:nth-child(2),
+#island tr:nth-child(3) td:nth-child(2) {
+    background-color: white;
+    width: 13%;
+}
+
+/* 2. rida */
+#island tr:nth-child(2) {
+    background-color: white;
+    height: 20%;
+}
+
+/* 1. rida, 3. lahter ja 3. rida, 3. lahter */
+#island tr:nth-child(1) td:nth-child(3),
+#island tr:nth-child(3) td:nth-child(3) {
+    background-color: blue;
+}
+/* 2. rida */
+#island tr:nth-child(2) {
+    background-color: red;
+    height: 10%;
+}
+/* 1. rida, 2. lahter ja 3. rida, 2. lahter */
+#island tr:nth-child(1) td:nth-child(2),
+#island tr:nth-child(3) td:nth-child(2) {
+    background-color: red;
+    width: 7%;
+}
+
+/*не вышло у меня чтобы красный крест был на фоне белого креста*/
+
+#inglismaa{
+    width: 330px;
+    height: 210px;
+    border: 1pt solid grey;
+    border-spacing: 0;
+    position: absolute;
+    top: 50px;
+    left: 1400px;
+}
+/* Esimene rida, esimene ja kolmas veerg */
+#inglismaa tr:nth-child(1) td:nth-child(1),
+#inglismaa tr:nth-child(1) td:nth-child(3),
+#inglismaa tr:nth-child(3) td:nth-child(1),
+#inglismaa tr:nth-child(3) td:nth-child(3) {
+    background-color: white; /* Ristiku sinine värv */
+    width: 25%; /* Risti laius */
+}
+
+/* Esimene rida, teine veerg */
+#inglismaa tr:nth-child(1) td:nth-child(2) {
+    background-color: red; /* Punane värv ristiku jaoks */
+    width: 7%; /* Risti laius */
+}
+
+/* Teine rida */
+#inglismaa tr:nth-child(2) td {
+    background-color: red; /* Punane värv ristiku jaoks */
+    height: 15%; /* Risti kõrgus */
+}
+/*чтобы сделать полоску снизу использовал last-child*/
+/* Viimane rida */
+#inglismaa tr:last-child td {
+    background-color: red; /* Punane värv alumise riba jaoks */
+    height: 40%; /* Alumise riba kõrgus */
+}

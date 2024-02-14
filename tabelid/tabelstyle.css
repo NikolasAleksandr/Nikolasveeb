@@ -61,6 +61,7 @@ td{
 #soome tr:nth-child(3) td:nth-child(1)  {
     background-color: white;
     width: 25%;
+
 }
 /*1.rida 2.lahter ja 3.rida 2.lahter*/
 #soome tr:nth-child(1) td:nth-child(2),
