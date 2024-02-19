@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b93870fd-7e03-4c70-b918-6c107958c7ef" name="Changes" comment="tabelid lipud">
+    <list default="true" id="b93870fd-7e03-4c70-b918-6c107958c7ef" name="Changes" comment="Islandi lipp ja Inglismaa lipp">
+      <change afterPath="$PROJECT_DIR$/vormid/vormStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vormid/vormid.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vormid/vormistLugemine.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tabelid/lipud.html" beforeDir="false" afterPath="$PROJECT_DIR$/tabelid/lipud.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tabelid/lipudstyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/tabelid/lipudstyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tabelid/tabelid.html" beforeDir="false" afterPath="$PROJECT_DIR$/tabelid/tabelid.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tabelid/tabelstyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/tabelid/tabelstyle.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +23,7 @@
       <list>
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -82,7 +82,8 @@
       <workItem from="1707382982321" duration="4585000" />
       <workItem from="1707911129976" duration="719000" />
       <workItem from="1707918451603" duration="7250000" />
-      <workItem from="1707948538455" duration="5708000" />
+      <workItem from="1707948538455" duration="6008000" />
+      <workItem from="1708375181596" duration="653000" />
     </task>
     <task id="LOCAL-00001" summary="enesetutvustus">
       <option name="closed" value="true" />
@@ -180,7 +181,23 @@
       <option name="project" value="LOCAL" />
       <updated>1707911846434</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Islandi lipp ja Inglismaa lipp">
+      <option name="closed" value="true" />
+      <created>1707954452129</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1707954452129</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Islandi lipp ja Inglismaa lipp">
+      <option name="closed" value="true" />
+      <created>1707954548392</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1707954548392</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,6 +212,7 @@
     <MESSAGE value="менял цвет, размер текста и его расположение" />
     <MESSAGE value="исправил ошибки, которые показал валидатор" />
     <MESSAGE value="tabelid lipud" />
-    <option name="LAST_COMMIT_MESSAGE" value="tabelid lipud" />
+    <MESSAGE value="Islandi lipp ja Inglismaa lipp" />
+    <option name="LAST_COMMIT_MESSAGE" value="Islandi lipp ja Inglismaa lipp" />
   </component>
 </project>
