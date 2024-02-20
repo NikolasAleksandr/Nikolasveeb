@@ -12,7 +12,7 @@
     <table>
         <tr>
             <td>
-                <label for="nimi">Nimi:</label>
+                <label for="nimi"><strong>Nimi:</strong></label>
             </td>
             <td>
                 <input type="text" id="nimi" name="nimi" oninput="tekstKastiLugemine()">
@@ -61,7 +61,7 @@
         </tr>
         <tr>
             <td>
-                <label for="kodu">Kust sa pärit oled? </label>
+                <label for="kodu"> <strong>Kust sa pärit oled?</strong> </label>
             </td>
             <td>
                 <select id="kodu">
@@ -72,15 +72,134 @@
                 </select>
             </td>
         </tr>
-        <!--Добавлю строку чтобы пользователь мог выбрать свою дату рождения-->
+
+        <!--Добавлю строку чтобы пользователь мог выбрать свою дату рождения с использованием input type "date"-->
         <tr>
             <td>
-                <label for="sünnipäev">Sünnipäev:</label>
+                <label for="sünnipäev"><strong>Sünnipäev:</strong></label>
             </td>
             <td>
                 <input type="date" id="sünnipäev" name="sünnipäev">
             </td>
         </tr>
+
+        <!--Пользователь выбрает свой пол, вариант ответа можно выбрать кликнув на круглый радио-переключатель-->
+        <tr>
+            <td>
+                <label> <strong> Valige oma sugu </strong> </label>
+            </td>
+            <td>
+                    <input type="radio" id="mees" name="sugu" value="Mees">
+                    <label for="mees">Mees</label>
+                    <br>
+                    <input type="radio" id="naine" name="sugu" value="Naine">
+                    <label for="naine">Naine</label>
+            </td>
+        </tr>
+
+        <!--Пользователь выбирает свое образование, выбрать может только один пункт-->
+        <tr>
+            <td>
+                <label for="haridus"><strong>Valige oma haridustase:</strong></label>
+            </td>
+            <td>
+                <select id="haridus" name="haridus">
+                    <option value="Põhiharidus">Põhiharidus</option>
+                    <option value="Keskharidus">Keskharidus</option>
+                    <option value="Kõrgharidus">Kõrgharidus</option>
+                </select>
+            </td>
+        </tr>
+
+        <!--Пользователь выбирает языки на которых может разговаривать сделал с checkbox-->
+        <tr>
+            <td>
+                <strong>Mis keeli sa räägid?</strong>
+            </td>
+            <td>
+                <input type="checkbox" id="eesti" name="keel" value="Eesti">
+                <label for="eesti">Eesti</label>
+                <br>
+                <input type="checkbox" id="inglise" name="keel" value="Inglise">
+                <label for="inglise">Inglise</label>
+                <br>
+                <input type="checkbox" id="vene" name="keel" value="Vene">
+                <label for="vene">Vene</label>
+                <br>
+                <input type="checkbox" id="muud" name="keel" value="Muud">
+                <label for="muud">Muud</label>
+            </td>
+        </tr>
+
+
+        <!--Добавил input type "tel" специальная строка запрашивает у пользователя его номер телефона-->
+        <tr>
+            <td>
+                <label for="phone"><strong>Telefoninumber:</strong></label>
+            </td>
+            <td>
+                <input type="tel" id="phone" name="phone" placeholder="Sisesta oma telefoninumber">
+            </td>
+        </tr>
+
+        <!--Добавил вопрос с input type "range", который дает ползунок и при его помощи пользователь оценивает свои знания в ИТ сфере-->
+        <tr>
+            <td>
+                <label for="itTeadmised"><strong>Hinda oma teadmised IT-sfääris:</strong></label>
+            </td>
+            <td>
+                <input type="range" id="itTeadmised" name="itTeadmised" min="0" max="10" step="1" value="5">
+                <br>
+                <output for="itTeadmised" id="itTeadmised_value">5</output>
+            </td>
+        </tr>
+
+        <!--Добавил вопрос с input type "email" специальная строка просит пользователя ввести его электронную почту-->
+        <tr>
+            <td>
+                <label for="email"><strong>Meil:</strong></label>
+            </td>
+            <td>
+                <input type="email" id="email" name="email" placeholder="Sisesta oma meili">
+            </td>
+        </tr>
+
+        <!--Пользователь выбирает свой любимый цвет при помощи input type "color"-->
+        <tr>
+            <td>
+                <label for="color"><strong>Sinu lemmik värv:</strong></label>
+            </td>
+            <td>
+                <input type="color" id="color" name="color">
+            </td>
+        </tr>
+
+        <!--Пользователь выбирает жанр фильмов, которые ему нравятся, сделал с checkbox-->
+        <tr>
+            <td>
+                <strong>Valige oma lemmikfilmide žanrid:</strong>
+            </td>
+            <td>
+                <input type="checkbox" id="komöödia" name="filmid" value="Komöödia">
+                <label for="komöödia">Komöödia</label>
+                <br>
+                <input type="checkbox" id="draama" name="filmid" value="Draama">
+                <label for="draama">Draama</label>
+                <br>
+                <input type="checkbox" id="põnevik" name="filmid" value="Põnevik">
+                <label for="põnevik">Põnevik</label>
+                <br>
+                <input type="checkbox" id="õudus" name="filmid" value="Õudus">
+                <label for="õudus">Õudus</label>
+                <br>
+                <input type="checkbox" id="romantika" name="filmid" value="Romantika">
+                <label for="romantika">Romantika</label>
+                <br>
+                <input type="checkbox" id="seiklus" name="filmid" value="Seiklus">
+                <label for="seiklus">Seiklus</label>
+            </td>
+        </tr>
+
 
         <tr>
             <td>
@@ -92,10 +211,5 @@
         </tr>
     </table>
 </form>
-Добавить в таблицу, написанную на уроке, мин 6 маx 10 вопросов и использовать для них
-различные подходящие input type(color, date, week, jne).
-Добавить к каждому input[type=..] css стили.
-Использовать w3schools.com
-
 </body>
 </html>
